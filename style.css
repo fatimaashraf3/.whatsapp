@@ -81,6 +81,22 @@ input{
 .special{
     color: skyblue;
 }
+.time{
+    margin-right: 30px;
+    color: #00a884;
+}
+.circle{
+    color: black;
+    margin-right: 5px;
+    background-color: #00a884;
+    font-size: 11px;
+    border: 2px solid #00a884;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+}
 @media screen and (max-width:600px) {
     .navicon{
         margin-right: 20px;
@@ -96,5 +112,18 @@ input{
     }
     input{
         width: 40vh;
+    }
+    .box1 p{
+        font-size: 14px;
+    }
+    .time{
+        margin-right: 6px;
+    }
+    .circle{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 9px;
     }
 }
