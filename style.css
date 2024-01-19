@@ -2,6 +2,10 @@
     background-color: #202c33;
     padding-left: 50px;
 }
+.left{
+    width: 40%;
+    overflow: scroll;
+}
 body{
     background-color: #111b21;
 }
@@ -19,7 +23,7 @@ body{
 }
 .div1{
  margin-top: 30px;
- margin-left: 100px;
+ margin-left: 20px;
 }
 input{
     width: 50vh;
@@ -46,8 +50,8 @@ input{
     margin-left: 10px;
 }
 .box1{
-    margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
     border-bottom: 1px solid #202c33;
 }
 .box1 p{
@@ -97,6 +101,42 @@ input{
     padding-bottom: 3px;
     border-radius: 30px;
 }
+.whole{
+    display: flex;
+}
+.image{
+    text-align: center;
+    margin-left: 40vh;
+}
+.right{
+    background-color: #202c33;
+    width: 60%;
+    height: 100vh;
+    padding-top: 25vh; position: relative;
+    border-left: 0.5px solid rgb(87, 85, 85);
+}
+.right h1{
+    color: #d1d5d8;
+    font-weight: 200;
+    text-align: center;
+}
+.right p{
+    color: #abb7be;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 35px;
+}
+.last{
+    padding-top: 20%;
+}
+button{
+    background-color: #00a884;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 130px;
+    margin-left: 48vh;
+}
 @media screen and (max-width:600px) {
     .navicon{
         margin-right: 20px;
@@ -110,11 +150,14 @@ input{
     .footer p{
         font-size: 13px;
     }
+    .left{
+        width: 100%;
+    }
     input{
         width: 40vh;
     }
     .box1 p{
-        font-size: 14px;
+        font-size: 15px;
     }
     .time{
         margin-right: 6px;
@@ -125,5 +168,30 @@ input{
         padding-left: 3px;
         padding-right: 3px;
         font-size: 9px;
+    }
+    .right{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .image{
+        margin-left: 30vh;
+    }
+    button{
+        margin-left: 37vh;
+    }
+    .time{
+        margin-right: 3px;
+    }
+    .box1{
+        font-size: 17px;
     }
 }
